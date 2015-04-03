@@ -1,0 +1,186 @@
+body{
+background-image:url("../img/fondo1.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font: message-box;
+}
+
+#contenedor{
+border-color:blue ;
+margin: auto ;
+width: 1200px;
+height: auto;
+}
+
+.top{
+background-image:url("../img/portada.jpg");
+width: 1200px;
+height: 170px;
+border-style:solid;
+border-width: 1px;
+margin:0 0 10px 0;
+border-radius: 5px;
+
+background-color:white;
+
+filter:alpha(opacity=70);
+-moz-opacity:.70;opacity:.70;
+}
+
+.mid{
+width:auto;
+height:auto;
+}
+
+
+.menu{
+border-width: 1px;
+border-radius: 5px;
+float:left;
+padding-bottom:10px;
+width: auto;
+height: auto;
+border-style:solid;
+margin:0 5px 0 0;
+padding:5px;
+text-align:center;
+
+text-decoration:none;
+
+background-color:white;
+
+filter:alpha(opacity=80);
+-moz-opacity:.80;opacity:.80;
+
+}
+
+.icono{
+border-width: 1px;
+border-radius: 5px;
+border-style:solid;
+width:150px;
+height:20px;
+text-align:center;
+
+text-decoration:none;
+
+padding-bottom:2px;
+
+background-color:#D7D7D7;
+
+filter:alpha(opacity=60);
+-moz-opacity:.60;opacity:.60;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+	
+}
+
+a:visited{
+
+	color:black;
+	filter:alpha(opacity=90);
+	-moz-opacity:.90;opacity:.90;
+	
+}
+
+
+.icono:hover{
+background-color:white;
+
+filter:alpha(opacity=80);
+-moz-opacity:.80;opacity:.80;}
+
+.publicidad{
+background-image:url("../img/figapubli.jpg");
+border-width: 1px;
+border-radius: 5px;
+float:right;
+width: 180px;
+height:470px;
+border-style:solid;
+margin:0 0 0 0;
+padding:5px;
+padding-bottom:10px;
+
+background-color:white;
+
+filter:alpha(opacity=80);
+-moz-opacity:.80;opacity:.80;
+}
+
+.principal{
+border-width: 1px;
+border-radius: 5px;
+width: 818px;
+height: auto;
+border-style:solid;
+padding:5px;
+margin:0 0 0 170px;
+background-color:white;
+word-wrap: break-word;
+
+filter:alpha(opacity=80);
+-moz-opacity:.80;opacity:.80;
+}
+
+.bot{
+float: none;
+background-image:url("../img/alfinal.jpg");
+width: 828px;
+height: 50px;
+border-style:solid;
+border-width: 1px;
+margin:5px 5px 5px 170px;
+border-radius: 5px;
+
+text-align:center;
+
+background-color:white;
+
+filter:alpha(opacity=70);
+-moz-opacity:.70;opacity:.70;
+}
+
+.captionOrange, .captionBlack
+	{
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+.captionOrange
+	{
+	background: #EB5100;
+	background-color: rgba(235, 81, 0, 0.6);
+}
+.captionBlack
+	{
+	font-size:16px;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+	{
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover
+	{
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon
+	{
+	background: url(../img/browser-icons.png);
+}
